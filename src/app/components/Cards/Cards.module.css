@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
+
+.sec {
+    padding: 3rem 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 3rem;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.ttl {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+    
+}
+
+.stl {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 1rem;
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+    
+}
+
+.crds {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    font-family: 'Public Sans', sans-serif;
+    padding-top: 25px;
+
+}
+
+.crd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: #fff;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.crd:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.ttlCrd {
+    font-size: 1.5rem;
+    font-weight: bold;;
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.txt {
+    font-size: 1rem;
+    color: #2e7d32;
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+}

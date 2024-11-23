@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
+
+.noticias {
+    padding: 3rem 2rem;
+    background-color: #f4f4f4;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.item {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tituloItem {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.descricao {
+    font-size: 1rem;
+    color: #2e7d32;
+    margin-top: 0.5rem;
+}
+
+.verMais {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #2e7d32; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.verMais:hover {
+    background-color: #1b5e20; 
+}
